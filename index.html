@@ -7,7 +7,28 @@
 <title>Gitcloud</title>
 </head>
 <body>
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyA76UhgPkF4eNACPDi-x12ZKRuAWHQQMnE",
+  authDomain: "gitcloudweb.firebaseapp.com",
+  projectId: "gitcloudweb",
+  storageBucket: "gitcloudweb.appspot.com",
+  messagingSenderId: "876821996496",
+  appId: "1:876821996496:web:819f405a5d6f440c6b0fd5",
+  measurementId: "G-CRYM24NG9F"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+  
 <h1>Gitcloud</h1>
 <p>Hey.</p>
 
