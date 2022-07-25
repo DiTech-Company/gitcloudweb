@@ -1,1 +1,2 @@
-alert "Hello and welcome to Gitcloud"
+var firebase = require('firebase');
+var firebaseui = require('firebaseui');
